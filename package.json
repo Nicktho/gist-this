@@ -4,7 +4,9 @@
   "description": "Slack bot that watches :gist: reactions to gistify messages",
   "main": "index.js",
   "dependencies": {
-    "slack-client": "^1.4.1"
+    "commander": "^2.8.1",
+    "request": "^2.60.0",
+    "websocket": "^1.0.21"
   },
   "devDependencies": {},
   "scripts": {
