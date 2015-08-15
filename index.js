@@ -7,9 +7,9 @@ var program = require('commander');
 var pkg = require( path.join(__dirname, 'package.json') );
 
 program
-	.version(pkg.version)
-	.option('-k, --key <key>', 'Api key for slack bot integration')
-	.parse(process.argv);
+  .version(pkg.version)
+  .option('-k, --key <key>', 'Api key for slack bot integration')
+  .parse(process.argv);
   
 var client = new WebSocketClient();
   
