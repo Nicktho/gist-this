@@ -1,0 +1,29 @@
+{
+  "name": "gist-this",
+  "version": "0.0.1",
+  "description": "Slack bot that watches :gist: reactions to gistify messages",
+  "main": "index.js",
+  "dependencies": {
+    "slack-client": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nicktho/gist-this.git"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "gist",
+    "this"
+  ],
+  "author": "Nick Matenaar <matenaar92@gmail.com> (http://nickmatenaar.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicktho/gist-this/issues"
+  },
+  "homepage": "https://github.com/Nicktho/gist-this"
+}
